@@ -172,7 +172,7 @@ export default {
         xlsData += "<tr>";
         for (let key in item) {
           xlsData +=
-            "<td>" +
+            "<td style=' mso-number-format:\"\\@\"'>" +
             _self.preprocessLongNum(
               _self.valueReformattedForMultilines(item[key])
             ) +
